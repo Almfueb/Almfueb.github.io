@@ -10,11 +10,26 @@ body {
     box-sizing: border-box;
 }
 
-header {
-    height: 40px;
-    width: 100%;
-    box-sizing: border-box;
+header nav {
+    display: flex;
     background-color: rgb(79, 77, 77);
+    color: rgb(255, 255, 255);
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
 }
 
 section {
