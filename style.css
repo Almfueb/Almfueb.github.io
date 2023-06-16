@@ -56,24 +56,53 @@ header nav ul li a:hover{
     border: solid 1px black;
 }
 
-.left {
+.container .left {
     display: flex;
     margin: 25px 25px 25px 40px;
     flex-direction: row-reverse;
 }
 
-.right {
+.container .right {
     flex: 1;
     margin: 25px 25px 25px 25px;
 }
 
-.right h1 {
+.container .right h1 {
     font-size: 60px;
 }
 
-.right p {
+.container .right p {
     margin-top: 20px;
     font-size: 20px;
+}
+
+.container .social-icons{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2em;
+}
+.social-icons{
+    margin-top: 150px;
+    width: 1em;
+    height: 1em;
+    border-radius: 0.5em;
+}
+
+.bxl-facebook:hover {
+    transform: scale(1.5);
+}
+
+.bxl-instagram-alt:hover {
+    transform: scale(1.5);
+}
+
+.bxl-discord-alt:hover {
+    transform: scale(1.5);
+}
+
+.bxl-whatsapp-square:hover {
+    transform: scale(1.5);
 }
 
 footer {
@@ -81,4 +110,127 @@ footer {
     height: 100px;
     box-sizing: border-box;
     background-color: rgb(40, 37, 37);
+}
+
+.About {
+    background-color: bisque;
+    margin-top: 150px;
+    display: flex;
+
+}
+
+.circle-image {
+    border-radius: 60%;
+}
+
+.About .left {
+    display: flex;
+    margin: 25px 25px 25px 120px;
+    flex-direction: row-reverse;
+}
+
+.About .right {
+    flex: 1;
+    margin-top: 100px;
+    margin-right: 120px;
+    text-align: center;
+    justify-content: center;
+}
+
+.content-two {
+    background-color: bisque;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+.content-two .title-underline {
+    border-bottom: 2px solid gray;
+    margin-bottom: 30px;
+}
+
+.Projects {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+}
+  
+.Project {
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    background-color: bisque;
+    text-align: center;
+    width: 30%;
+    position: relative;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+  
+.Project img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+  
+.Project h3 {
+    margin-bottom: 30px;
+}
+  
+.Project p {
+    font-weight: bold;
+}
+
+.High {
+    transition: filter 0.3s ease;
+    cursor: pointer;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.High:hover {
+    transform: scale(1.2);
+    max-width: 275px;
+    max-height: 275px;
+}
+
+.Contacts{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(200, 181, 158);
+}
+
+.Contact {
+    margin-top: 50px;
+    width: 75%;
+    margin-bottom: 50px;
+}
+
+.Contact h1 {
+    font-size: 40px;
+}
+
+.bottom{
+    background-color: gray;
+    width: 100%;
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom p {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    font-size: 10pt;
+}
+
+.bottom p span {
+    font-weight: bold;
 }
